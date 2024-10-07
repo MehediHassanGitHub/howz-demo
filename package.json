@@ -1,0 +1,56 @@
+{
+  "name": "house-cleaning-app",
+  "main": "src/app.ts",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@nativescript/core": "~8.8.0",
+    "@react-native-firebase/app": "^18.3.0",
+    "@react-native-firebase/auth": "^18.3.0",
+    "@react-native-google-signin/google-signin": "^10.0.1",
+    "react": "18.2.0",
+    "react-native": "^0.72.0",
+    "react-nativescript": "^5.0.0",
+    "react-nativescript-navigation": "^5.0.0",
+    "react-native-fbsdk-next": "^11.2.1",
+    "react-native-sqlite-storage": "^6.0.1",
+    "react-native-fs": "^2.20.0",
+    "react-native-mail": "^6.1.1",
+    "react-native-version-check": "^3.4.7"
+  },
+  "devDependencies": {
+    "@nativescript/preview-cli": "1.0.13",
+    "@nativescript/stackblitz": "0.0.8",
+    "@nativescript/tailwind": "^2.1.0",
+    "@nativescript/types-minimal": "~8.8.0",
+    "@nativescript/webpack": "~5.0.8",
+    "@types/react": "^18.2.6",
+    "@types/react-native-sqlite-storage": "^5.0.2",
+    "deprecated-react-native-prop-types": "^4.0.0",
+    "patch-package": "^6.5.1",
+    "tailwindcss": "~3.4.0",
+    "typescript": "~5.4.0"
+  },
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "start": "ns preview",
+    "postinstall": "npx patch-package"
+  },
+  "resolutions": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/runtime": "^7.20.0",
+    "@react-native/normalize-color": "^2.0.0",
+    "consolidate": "^1.0.0",
+    "glob": "^8.0.0",
+    "rimraf": "^4.0.0",
+    "react": "18.2.0",
+    "react-reconciler": "^0.29.0"
+  },
+  "overrides": {
+    "react-nativescript": {
+      "react": "18.2.0",
+      "react-reconciler": "^0.29.0"
+    }
+  }
+}
